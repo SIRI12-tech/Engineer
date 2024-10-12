@@ -1,0 +1,80 @@
+{% extends 'base.html' %}
+
+{% block title %}Services - VoltMax Engineering Co.{% endblock %}
+
+{% block content %}
+{% load static %}
+<section class="services-hero bg-light py-5">
+    <div class="container">
+        <h1 class="display-4">Our Services</h1>
+        <p class="lead">Comprehensive electrical solutions for all your needs</p>
+    </div>
+</section>
+
+<section class="services-list py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="{% static 'images/power-maintenance.jpg' %}" class="card-img-top" alt="Power Maintenance">
+                    <div class="card-body">
+                        <h5 class="card-title">Power Maintenance</h5>
+                        <p class="card-text">We provide comprehensive power maintenance services to ensure your electrical systems are running at peak efficiency. Our team of experts can handle everything from routine inspections to emergency repairs.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="{% static 'images/electrical-engineering.jpg' %}" class="card-img-top" alt="Electrical Engineering">
+                    <div class="card-body">
+                        <h5 class="card-title">Electrical Engineering</h5>
+                        <p class="card-text">Our electrical engineering services cover a wide range of projects, from designing new electrical systems for buildings to upgrading existing infrastructure. We use the latest technologies and best practices to deliver optimal results.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="{% static 'images/energy-efficiency.jpg' %}" class="card-img-top" alt="Energy Efficiency">
+                    <div class="card-body">
+                        <h5 class="card-title">Energy Efficiency</h5>
+                        <p class="card-text">We help businesses and organizations reduce their energy consumption and costs through innovative energy efficiency solutions. Our team can conduct energy audits and implement strategies to optimize your electrical systems.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="testimonials bg-light py-5">
+    <div class="container">
+        <h2 class="text-center mb-5">What Our Clients Say</h2>
+        
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <p class="card-text">"Electrical Engineering Co. provided exceptional service for our new office building. Their innovative solutions helped us achieve significant energy savings."</p>
+                        <footer class="blockquote-footer">John Smith, CEO of TechCorp</footer>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <p class="card-text">"We've been working with Electrical Engineering Co. for years, and they consistently deliver high-quality results. Their team is professional, knowledgeable, and always goes the extra mile."</p>
+                        <footer class="blockquote-footer">Sarah Johnson, Facilities Manager at GreenEnergy Inc.</footer>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <p class="card-text">"The energy efficiency upgrades implemented by Electrical Engineering Co. have significantly reduced our operating costs. We highly recommend their services."</p>
+                        <footer class="blockquote-footer">Mike Davis, Operations Director at Manufacturing Solutions</footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

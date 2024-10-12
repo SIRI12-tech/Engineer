@@ -1,0 +1,94 @@
+{% extends 'base.html' %}
+
+{% block title %}About Us - VoltMax Engineering Co.{% endblock %}
+
+{% block content %}
+{% load static %}
+<section class="about-hero bg-light py-5">
+    <div class="container">
+        <h1 class="display-4">About Electrical Engineering Co.</h1>
+        <p class="lead">Powering innovation and sustainability since 1995</p>
+    </div>
+</section>
+
+<section class="company-history py-5">
+    <div class="container">
+        <h2 class="mb-4">Our History</h2>
+        <p>Founded in 1995, Electrical Engineering Co. has been at the forefront of electrical innovation for over two decades. From our humble beginnings as a small local contractor, we've grown into a leading provider of comprehensive electrical engineering solutions, serving clients across the nation.</p>
+    </div>
+</section>
+
+<section class="mission-vision bg-light py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <h2>Our Mission</h2>
+                <p>To provide innovative, sustainable, and reliable electrical solutions that empower businesses and communities to thrive in an increasingly electrified world.</p>
+            </div>
+            <div class="col-md-6 mb-4">
+                <h2>Our Vision</h2>
+                <p>To be the leading force in shaping a future where clean, efficient, and intelligent electrical systems enhance every aspect of life and industry.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="team py-5">
+    <div class="container">
+        <h2 class="mb-4">Our Team</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="{% static 'images/team-member-1.jpg' %}" class="card-img-top" alt="John Doe">
+                    <div class="card-body">
+                        <h5 class="card-title">Jasper Thorne</h5>
+                        <p class="card-text">Chief Executive Officer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="{% static 'images/team-member-2.jpg' %}" class="card-img-top" alt="Jane Smith">
+                    <div class="card-body">
+                        <h5 class="card-title">Sarah Matthew</h5>
+                        <p class="card-text">Chief Technical Officer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="{% static 'images/team-member-3.jpg' %}" class="card-img-top" alt="Mike Johnson">
+                    <div class="card-body">
+                        <h5 class="card-title">Mike Johnson</h5>
+                        <p class="card-text">Lead Engineer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="values bg-light py-5">
+    <div class="container">
+        <h2 class="mb-4">Our Values</h2>
+        <div class="row">
+            <div class="col-md-3 mb-4">
+                <h4>Innovation</h4>
+                <p>We constantly push the boundaries of what's possible in electrical engineering.</p>
+            </div>
+            <div class="col-md-3 mb-4">
+                <h4>Sustainability</h4>
+                <p>We're committed to developing eco-friendly solutions for a greener future.</p>
+            </div>
+            <div class="col-md-3 mb-4">
+                <h4>Integrity</h4>
+                <p>We uphold the highest standards of honesty and ethical conduct in all our dealings.</p>
+            </div>
+            <div class="col-md-3 mb-4">
+                <h4>Excellence</h4>
+                <p>We strive for excellence in every project, no matter how big or small.</p>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
